@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+nav{
+    background-color: rgba(255, 255, 255, 0.767);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    margin-bottom: 15px;
+
+}
+
+.logo-container{
+    width: 20%;
+}
+
+.img-logo{
+    width: 70%;
+    margin-left: 10px;
+}
+
+.camara-container{
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+.img-camara{
+    width: 30%;
+    margin-right: 10px;
+}
+
+/* Cards */
+
+/* Encabezado */
+
+.card-container{
+    width: 30%;
+   /*  border: 1px solid rgb(190, 190, 190); */
+    margin-left: 15px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+}
+
+.encabezado-container{
+    background-color: rgb(255, 255, 255, 0.767);
+    display: flex;
+    width: 100%;
+    /* padding: 4px; */
+}
+
+.perfil-nombre-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.perfil-nombre-container  h5{
+    margin-left: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.perfil-nombre-container img{
+    width: 10%;
+    border-radius: 50%;
+    margin: 5px 7px;
+}
+.boton-tres-puntos{
+    display: flex;
+    align-items: center;
+    width: 80%;
+
+}
+.boton-tres-puntos img{
+    width: 80%; 
+}
+
+/* Foto */
+
+.foto-container img{
+    width: 100%;
+}
+
+.like-save-container{
+    width: 100%;
+}
+
+.like-save{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 4px;
+    
+    
+}
+
+.like-container{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.like-container img{
+    width: 80%;
+
+}
+
+.save-container{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.save-container img{
+    width: 80%;
+
+}
+
+.fecha-container{
+    width: 100%;
+}
+.fecha{
+    padding: 10px;
+    margin-left: 2px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-size: small;
+}
+
+
+
+
+
+
+
+
