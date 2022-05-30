@@ -143,10 +143,6 @@ nav{
     margin: 40px 0;
 }
 
-.card-container{
-
-
-}
 .ilera-de-cards{
     width: 100%;
     display: flex;
@@ -154,8 +150,44 @@ nav{
     justify-content: center;
 }
 
+/* queries */
+/* Mobile */
+@media screen and (max-width: 576px) and (max-height: 1074px){
+    .logo-container{
+        width: 70%;
+    }
+    .img-logo{
+        margin-left: 4px;
+        width: 50%;
 
+    }
+    .camara-container{
+        width: 20%;
+    }
+    .img-camara{
+        margin-right: 4px;
+        width: 34%;
+    }
+    .ilera-de-cards{
+        flex-direction: column;
+    }
+    .card-container{
+        width: 100%;
+        margin: 5px 0;
+    } 
+}
 
+/* Tablet */
 
+@media screen and (min-width: 576px) and (max-width: 1199px){
+    
+    .img-logo{
+        margin-left: 80px;
+        width: 100%;
 
-
+    }
+    .img-camara{
+        width: 40%;
+        margin-right: 80px;
+    }
+    }
